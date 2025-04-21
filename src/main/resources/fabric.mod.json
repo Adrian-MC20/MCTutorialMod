@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorialmod",
+	"version": "${version}",
+	"name": "Tutorial Mod",
+	"description": "The first tutorial mod created by Maleficent20",
+	"authors": [
+		"Maleficent20"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/Adrian-MC20/MCTutorialMod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tutorialmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"maleficent.tutorialmod.TutorialMod"
+		],
+		"fabric-datagen": [
+			"maleficent.tutorialmod.TutorialModDataGenerator"
+		],
+		"client": [
+			"maleficent.tutorialmod.TutorialModClient"
+		]
+	},
+	"mixins": [
+		"tutorialmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
