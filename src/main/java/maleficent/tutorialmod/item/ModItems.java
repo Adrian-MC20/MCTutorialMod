@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item PINK_WEAPON = registerItem("pink_weapon",
-            new AxeItem(ToolMaterial.GOLD,100,-2.4f, new Item.Settings()
+            new AxeItem(ToolMaterial.GOLD,180,-2.4f, new Item.Settings()
                     .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TutorialMod.MOD_ID, "pink_weapon")))));
 
     private static Item registerItem(String name, Item item){
