@@ -24,8 +24,6 @@ public class ModItems {
     public static void registerModItems() {
         TutorialMod.LOGGER.info("Registering Mod Items for " + TutorialMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries ->{
-            entries.add(PINK_WEAPON);
-        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> entries.add(PINK_WEAPON));
     }
 }
