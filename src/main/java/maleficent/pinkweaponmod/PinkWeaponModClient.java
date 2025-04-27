@@ -1,8 +1,8 @@
-package maleficent.tutorialmod;
+package maleficent.pinkweaponmod;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class TutorialModClient implements ClientModInitializer {
+public class PinkWeaponModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 

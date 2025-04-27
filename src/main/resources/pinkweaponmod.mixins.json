@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "maleficent.tutorialmod.mixin",
+	"package": "maleficent.pinkweaponmod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"

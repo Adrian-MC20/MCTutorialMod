@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "tutorialmod",
+	"id": "pinkweaponmod",
 	"version": "${version}",
-	"name": "Tutorial Mod",
-	"description": "The first tutorial mod created by Maleficent20",
+	"name": "Pink Weapon Mod",
+	"description": "A phallic mod created by Maleficent20",
 	"authors": [
 		"Maleficent20"
 	],
@@ -12,21 +12,21 @@
 		"sources": "https://github.com/Adrian-MC20/MCTutorialMod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/tutorialmod/icon.png",
+	"icon": "assets/pinkweaponmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"maleficent.tutorialmod.TutorialMod"
+			"maleficent.pinkweaponmod.PinkWeaponMod"
 		],
 		"fabric-datagen": [
-			"maleficent.tutorialmod.TutorialModDataGenerator"
+			"maleficent.pinkweaponmod.PinkWeaponModDataGenerator"
 		],
 		"client": [
-			"maleficent.tutorialmod.TutorialModClient"
+			"maleficent.pinkweaponmod.PinkWeaponModClient"
 		]
 	},
 	"mixins": [
-		"tutorialmod.mixins.json"
+		"pinkweaponmod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.13",

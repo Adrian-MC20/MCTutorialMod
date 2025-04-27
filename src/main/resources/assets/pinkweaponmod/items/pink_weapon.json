@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "tutorialmod:item/pink_weapon"
+    "model": "pinkweaponmod:item/pink_weapon"
   }
 }

@@ -1,4 +1,4 @@
-package maleficent.tutorialmod.mixin;
+package maleficent.pinkweaponmod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

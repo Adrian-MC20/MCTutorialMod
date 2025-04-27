@@ -1,13 +1,13 @@
-package maleficent.tutorialmod;
+package maleficent.pinkweaponmod;
 
-import maleficent.tutorialmod.item.ModItems;
+import maleficent.pinkweaponmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class TutorialMod implements ModInitializer {
-	public static final String MOD_ID = "tutorialmod";
+public class PinkWeaponMod implements ModInitializer {
+	public static final String MOD_ID = "pinkweaponmod";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
